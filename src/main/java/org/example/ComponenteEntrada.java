@@ -1,2 +1,5 @@
-package org.example;public class ComponenteEntrada {
+package org.example;
+interface DispositivoEntrada extends Componente {
+    String getTipoConector();
+    int[] getPuertosValidos();
 }
